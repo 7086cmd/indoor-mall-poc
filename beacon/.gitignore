@@ -53,3 +53,19 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Build artifacts
+build/
+sdkconfig
+sdkconfig.old
+
+# IDE/Editor specific files
+.vscode/
+.DS_Store
+*.log
+*.bak
+*.swp
+
+# Environment variables or sensitive data
+# Example: If you store Wi-Fi credentials in a separate file not meant for Git
+# credentials.h 

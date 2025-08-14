@@ -61,6 +61,12 @@ We could integrate with robotics solutions to facilitate the "first mile" delive
 It can help the deliverer optimize their route by reducing time to destination and avoiding obstacles in the mall, and bring the items directly from the gate of the mall.
 It can also provide in-mall delivery, like sending items from one store while you are in a restaurant, or ordering a boba tea, which is not provided in a certain restaurant, to be delivered to your location from a milky tea shop.
 
+### No-Contact Room Authentication
+
+We could implement a no-contact room authentication system that leverages the user's mobile device and the chip, when the BLE connects with the phone, and the chip detects the user's presence. After user validating their biometric data (e.g., fingerprint, facial recognition), the system could grant access to restricted areas without the need for physical contact.
+
+In the context of a mall, this could be particularly useful for accessing VIP areas, employee-only zones, or other restricted locations where traditional access methods (e.g., keycards) may be less convenient. Even if it's more secure, it could also validate the user's identity more effectively, and also integrate with other security systems in the mall, including NFC.
+
 ## Scaling Up
 
 It's not just a mall system—it could be leveraged in other large-scale indoor environments, including airports, train stations, and convention centers. The modular architecture and universal schema make it adaptable to various use cases, ensuring a consistent and efficient user experience across different settings.
